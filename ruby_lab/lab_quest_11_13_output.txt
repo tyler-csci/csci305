@@ -1,0 +1,40 @@
+[31mF[0m[31mF[0m[31mF[0m
+
+Failures:
+
+  1) Lab Questions Check unique_tracks with stop words removed 11. Song title starting with 'amore'
+     [31mFailure/Error: expect(create_title('amore').rstrip()).to eq('amore mio babbino caro gianni schicchi')[0m
+     [31m[0m
+     [31mNameError:[0m
+     [31m  undefined local variable or method `start_word' for #<RSpec::ExampleGroups::LabQuestionsCheck::UniqueTracksWithStopWordsRemoved:0x00007fbd0a61a340>[0m
+     [31m  Did you mean?  start_with[0m
+     [36m# ./ruby_lab.rb:67:in `create_title'[0m
+     [36m# ./spec/lab_quest_11_13_spec.rb:8:in `block (3 levels) in <top (required)>'[0m
+
+  2) Lab Questions Check unique_tracks with stop words removed 12. Song title starting with 'love'
+     [31mFailure/Error: expect(create_title('love').rstrip()).to eq('love you are you are you are you are you are you are you are you are you are you')[0m
+     [31m[0m
+     [31mNameError:[0m
+     [31m  undefined local variable or method `start_word' for #<RSpec::ExampleGroups::LabQuestionsCheck::UniqueTracksWithStopWordsRemoved:0x00007fbd0a618298>[0m
+     [31m  Did you mean?  start_with[0m
+     [36m# ./ruby_lab.rb:67:in `create_title'[0m
+     [36m# ./spec/lab_quest_11_13_spec.rb:12:in `block (3 levels) in <top (required)>'[0m
+
+  3) Lab Questions Check unique_tracks with stop words removed 13. Song title starting with 'little'
+     [31mFailure/Error: expect(create_title('little').rstrip()).to eq('little girl like you are you are you are you are you are you are you are you are you')[0m
+     [31m[0m
+     [31mNameError:[0m
+     [31m  undefined local variable or method `start_word' for #<RSpec::ExampleGroups::LabQuestionsCheck::UniqueTracksWithStopWordsRemoved:0x00007fbd0e67ac00>[0m
+     [31m  Did you mean?  start_with[0m
+     [36m# ./ruby_lab.rb:67:in `create_title'[0m
+     [36m# ./spec/lab_quest_11_13_spec.rb:16:in `block (3 levels) in <top (required)>'[0m
+
+Finished in 0.0036 seconds (files took 11.88 seconds to load)
+[31m3 examples, 3 failures[0m
+
+Failed examples:
+
+[31mrspec ./spec/lab_quest_11_13_spec.rb:7[0m [36m# Lab Questions Check unique_tracks with stop words removed 11. Song title starting with 'amore'[0m
+[31mrspec ./spec/lab_quest_11_13_spec.rb:11[0m [36m# Lab Questions Check unique_tracks with stop words removed 12. Song title starting with 'love'[0m
+[31mrspec ./spec/lab_quest_11_13_spec.rb:15[0m [36m# Lab Questions Check unique_tracks with stop words removed 13. Song title starting with 'little'[0m
+
