@@ -1,0 +1,133 @@
+1.
+?- father(X, 'Queen Elizabeth II').
+X = 'King George VI' ;
+false.
+
+2.
+?- grandmother(X, 'Queen Elizabeth II').
+X = 'Queen Mary' ;
+false.
+
+3.
+?- grandfather(X, 'Queen Elizabeth II').
+X = 'King George V' ;
+false.
+
+4.
+?- grandparent(X, 'Queen Elizabeth II').
+X = 'King George V' ;
+X = 'Queen Mary' ;
+false.
+
+5.
+?- grandparent('Queen Elizabeth II', X).
+X = 'Prince William' ;
+X = 'Prince Henry' ;
+false.
+
+6.
+?- sibling(X, 'Queen Elizabeth II').
+X = 'Princess Margaret' ;
+X = 'Princess Margaret'.
+
+7.
+?- son(X, 'Queen Elizabeth II').
+X = 'Prince Charles' ;
+X = 'Prince Andrew' ;
+X = 'Prince Edward'.
+
+8.
+?- daughter(X, 'Queen Elizabeth II').
+X = 'Princess Anne' ;
+false.
+
+9.
+?- aunt(X, 'Lady Diana Spencer').
+false.
+
+10.
+?- spouse(X, 'Prince William').
+X = 'Catherine Middleton'.
+
+11.
+?- ancestor(X, 'Prince Henry').
+X = 'Prince Charles' ;
+X = 'Lady Diana Spencer' ;
+X = 'Queen Elizabeth II' ;
+X = 'Prince Philip' ;
+X = 'King George VI' ;
+X = 'Lady Elizabeth Bowes-Lyon' ;
+X = 'King George V' ;
+X = 'Queen Mary' ;
+X = 'King Edward VII' ;
+X = 'Princess Alexandra of Denmark' ;
+X = 'Prince Albert' ;
+X = 'Queen Victoria' ;
+false.
+
+12.
+?- descendant('Queen Victoria', Y).
+false.
+
+13.
+?- older('Prince Henry', 'Prince William').
+false.
+
+14.
+?- older(X, 'Queen Elizabeth II').
+X = 'Queen Victoria' ;
+X = 'Princess Alexandra of Denmark' ;
+X = 'Queen Mary' ;
+X = 'Mrs Simpson' ;
+X = 'Lady Elizabeth Bowes-Lyon' ;
+X = 'Prince Albert' ;
+X = 'King Edward VII' ;
+X = 'King George V' ;
+X = 'King Edward VIII' ;
+X = 'King George VI' ;
+X = 'Prince Philip' ;
+false.
+
+15.
+?- regentWhenBorn(X, 'Queen Elizabeth II').
+X = 'King George V' ;
+false.
+
+EC1.
+?- cousin(X, 'Prince Charles').
+X = 'Viscount Linley' ;
+X = 'Viscount Linley' ;
+X = 'Lady Sarah Chatto' ;
+X = 'Lady Sarah Chatto' ;
+false.
+
+EC1.
+?- cousin('Prince Charles', X).
+X = 'Viscount Linley' ;
+X = 'Viscount Linley' ;
+X = 'Lady Sarah Chatto' ;
+X = 'Lady Sarah Chatto' ;
+false.
+
+16.
+I like how you are able to run your logical methods just by consulting each file.
+I found it curious that prolog knew which file to use as the source file by just
+using consult to load the file.
+
+17.
+The thing I hated was running into loading errors because of my comments. Using
+the '%' key worked for basic words but not descriptive comments so I had to use
+block comments.
+
+18.
+I enjoyed this lab. It felt a lot like puzzle solving and I'm glad I have taken
+logic classes before so that helped me out. I have never used a logical
+language before so it was interesting to see how it works.
+
+19.
+I spent about 4.5 hours on this lab.
+
+20.
+I probably will not use prolog again. I felt like there is still a lot of issues
+with prolog that need to be fixed. The only time I might use it would be for a
+type of database project that I had to get a certain member from the source file.

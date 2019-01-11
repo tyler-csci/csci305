@@ -1,0 +1,47 @@
+<firstname> <lastname>
+CSCI 305
+Spring 2018
+Lab Questions
+=======================
+1. val it = [4,2,5,2,6,10] : int list
+
+2. takes a list of int values and adds one to each element in the list
+
+3. (*a*) defines a function f that takes a list [] and returns the list
+
+4. (*b*) adds one to each element in the list passed into function f.
+
+5. `isMember "one" ["1", "2", "3", "4"]` returns False
+
+6. My isMember function uses tail recursion.
+
+7. { best times, it was the worst of times }
+
+
+8. Tail recursion executes slightly faster since it doesn't
+   require stack push/pop
+
+9. { green eggs and ham }
+
+10. { and macaroni }
+
+11. I like how sml interacts with the interpreter. When you're typing code, the
+    interpreter immediately interacts with it and you can see the output as it
+    is running.
+
+12. I don't like how sml functions when you use it via command lines. It's much
+    easier to to write out the program in a file and then run it and I think
+    that should be the standard.
+
+13. I've never used a meta-language before, so learning the syntax and how then
+    functions run and connect with each other was really interesting. I disliked
+    how clustered the output was when you ran a function though. I feel like
+    there was a lot of junk that printed out that was unnecessary.
+
+14. I spent about a couple hours on it every night for the past week, so
+    roughly 10 hours.
+
+
+15. I don't see myself using ML ever again, unless I have to for a job. It's a
+    good tool to know, but sml lacks in some aspects like IDE, code
+    documentation, and debugging.
